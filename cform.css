@@ -1,0 +1,50 @@
+#contact-form {
+    border-radius: 10px;
+    padding: 2% 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+    width: 50%;
+  }
+  
+  
+
+  
+  
+  .label {
+    display: none;
+    color: white;
+  }
+  
+  .button {
+      border-radius: 10px;
+      border: 1px solid rgba(139, 77, 77, 0.18);
+      padding: 10px;
+      font-family: sans-serif;
+      width: 50%;
+      border: 1px solid purple;
+  
+  
+  }
+  .form-input {
+  margin-bottom: 10px;
+  background: grey;
+  border-radius: 10px;
+  border: 1px solid purple;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+
+  }
+  .heading{
+      text-transform: uppercase;
+      color: purple;
+  }
+
+
+
+  .side-bar{
+      display: flex;
+      flex-direction: column-reverse;
+  }

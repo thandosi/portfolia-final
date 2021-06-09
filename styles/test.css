@@ -1,0 +1,49 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+  
+  .owl-carousel {
+    height: 100vh;
+  }
+  
+  
+  .container {
+    border-radius: 10px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    border-radius: 9%;
+    justify-content: space-evenly;
+    width: 50%;
+    justify-content: space-evenly;
+    margin: 20%;
+    
+  }
+  .tittle-testimonial {
+    color: blue;
+  }
+  .name {
+    color: white;
+  }
+
+  .owl-carousel img{
+    border-radius: 50%;
+  }
+  q{
+    color: white;
+    padding: 2%;
+  }
+h4{
+  line-height: 0;
+  font-weight: 500;
+}
+
+.blck{
+  width: 100%;
+  background-color: purple;
+}
