@@ -1,49 +1,25 @@
-* {
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-  }
-  
-  .owl-carousel {
-    height: 100vh;
-  }
-  
-  
-  .container {
-    border-radius: 10px;
-    font-family: sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 50vh;
-    border-radius: 9%;
-    justify-content: space-evenly;
-    width: 50%;
-    justify-content: space-evenly;
-    margin: 20%;
-    
-  }
-  .tittle-testimonial {
-    color: blue;
-  }
-  .name {
-    color: white;
-  }
 
-  .owl-carousel img{
-    border-radius: 50%;
-  }
-  q{
-    color: white;
-    padding: 2%;
-  }
-h4{
-  line-height: 0;
-  font-weight: 500;
+.container {
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 35vh;
+  width: 50%;
+  border-radius: 9%;
+  margin-top: 150px;
+  
+}
+.name {
+  color: white;
 }
 
-.blck{
-  width: 100%;
-  background-color: purple;
+q{
+  color: white;
+  text-align: center;
 }
+
+

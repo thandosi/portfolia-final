@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="./styles/pro.css">
     <link rel="stylesheet" href="./styles/line.css">
     <link rel="stylesheet" href="./styles/test.css">
-    <link rel="stylesheet" href="./styles/cform.css">
+    <link rel="stylesheet" href="./cform.css">
     <link rel="stylesheet" href="./styles/styles.css">
     <link rel="stylesheet" href="./styles/test.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
@@ -94,7 +94,10 @@ body {
             <h4 class="greeting">Hello i'm</h4>
             <h1 class="glitch">
             Thandokazi Nkohla</h1>
-            <h3 class="occupation">Web Developer</h3>
+            <div class="text-effect">
+              <h3 class="occupation">Web Developer</h3>
+            </div>
+            
             <a href=""Download class="btn"> 
                
                 <span class="button">Download cv</span>
@@ -171,14 +174,14 @@ body {
   <div class="education">
     <div class="cv">
       <div class="separator">
-        <h4>About Me</h4>
+        <h4>Education </h4>
       </div>
       <div class="work">
         <ul>
-            <li class="list"><div class="tittle"></div>
+            <li  class="list"><div ></div>
                 <h3 style="color: white;">Khwezi Lomso comprehensive school</h3>
-                <div class="cards2">
-                    <h5 style="color: white;"> 2012-2017</h5>
+                <div class="cards1">
+                    <h5 class="year1" style="color: white;"> 2012-2017</h5>
                    <ul class="ordered">
                      <li class="sub">Math</li>
                      <li class="sub">physical sciences</li>
@@ -189,9 +192,10 @@ body {
 
             
             </li>
-            <li class="list"><div class="tittle"><i class="fas fa-briefcase"></i></div>
-                <h3 style="color: white;">Caltex</h3>
-                <h4>2018-2018</h4>
+            <li class="list">
+              <div class="tittle"><i class="fas fa-briefcase"></i></div>
+                <h3 class="discription" style="color: white;">Caltex</h3>
+                <h5 style="color: white;" class="year2">2018-2018</h5>
                 <div class="cards2">
                   <p>responsibilistes:
                     selling Gas 
@@ -202,11 +206,16 @@ body {
             </div>
             
             </li>
-            <li class="list"><div class="tittle"><img src="./images/" alt=""></div>
-                <h3 style="color: white;">name of school</h3>
-                <div class="cards2">
+            <li class="list">
+              <div class="tittle">
+                <img src="./images/" alt=""></div>
+                <h3 class="college" style="color: white;">iCollege</h3>
+                <h4 class="tech">Tech support</h4>
+                <h5 class="year2" style="color: white;">2019-2019</h5>
+                <div class="cards3">
               
-              <p>Lorem ipsum dolor sit amet.</p>
+                <p class="col">Couldnt finish due to ...  
+                </p>
             
             </li>
         
@@ -336,15 +345,79 @@ body {
 
 </section>
 
-<section id="education" class="about">
-  <div class="education">
+<section id="" class="">
+  <div class="">
     <div class="cv">
       <div class="separator">
         <h4>Testimonials</h4>
       </div>
+
+  <!-- Set up your HTML -->
+  <div class="owl-carousel">
+     <div class="container person1">
+         <img src="./images/thapelo-tsotetsi.jpg" alt="image1" style="width: 120px;"> 
+         <h2 class="name" style="color: white;">THAPELO TSETETSI</h2>
+         <h3 class="tittle">-Lecture-</h3>
+         <q>thandokazi is a brilliant,hardworking student at Lifechoices academy. She has great communication annd intellectual skills. She works well within a team and is always willing to help other students. Thandokazi has a skill of been able to learn a new programming tools quickly.</q>
+     </div>
+     
+
+     <div class="container person2">
+         <img src="./images/unnamed.jpg" alt="image2" style="width: 120px;">
+         <h2 class="name" style="color: white;">Godwin Dza</h2>
+         <h3 class="tittle">-head-</h3>
+         <q>thandokazi has a lot of congidance and always give 100% of what she does!</q>
+
+     </div>
+
+     <div class="container person3"> 
+         <img src="./images/RESTEPILE.jpeg" alt="image3" style="width: 120px;">
+         <h2 class="name" style="color: white;">RESTEPILE </h2>
+         <h3 class="tittle ">-web developer-</h3>
+         <q>Thandokazi is very helpful ,patient and has a great personality.</q>
+     </div>
+     <div class="container person4">
+        <img src="./images/C8 Apr21 Likho Kapesi (1).JPG" alt="image3" style="width: 120px;">
+        <h2 class="name" style="color: white;">likho kapesi</h2>
+        <h3 class="tittle ">-web developer-</h3>
+        <q>Thandokazi is very helpful ,patient and has a great personality.</q>
+
+      </div>
+      <div class="container person4">
+        <img src="./images/C8 Apr21 Likho Kapesi (1).JPG" alt="image3" style="width: 120px;">
+        <h2 class="name" style="color: white;">likho kapesi</h2>
+        <h3 class="tittle ">-web developer-</h3>
+       <q>Thandokazi is very helpful ,patient and has a great personality.</q>
+
+      </div>
+
+  </div>
+  <!-- Script tags under here -->
+  <script
+    src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+    integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous"
+  ></script>
+  <script>
+    $(document).ready(function () {
+      $(".owl-carousel").owlCarousel({
+        items: 1,
+        margin: 50,
+        loop: true,
+        stagePadding: 100,
+        dots: false,
+        autoplay: true,
+      });
+    });
+  </script>
       
   </div>
-  <div class="block">
+  <section class="block">
     <div>
     
     <div class="skill-container">
@@ -361,162 +434,79 @@ body {
     </div>
     
   </div>
+</section
 
-
-</section>-
-
-<!--<section id="testimonial">
-    
-     <!-- Set up your HTML --
-
-  <div class="separator">
-      <h4 style="font-size: 22px;">Testimonnials</h4>
-    </div>
-<div class="owl-carousel">
-<div class="container person1">
-  <q>Thandokazi has a pleasant personality and ability to work in a team environment. i do not hesitate to recommend her for back-end projects.</q>
-  <h2 class="name">Godwin Dzvapatsva</h2>
-    <h3 class="tittle">-Head of Curriculum and Learning-</h3>
-    <img src="./images/unnamed.jpg" alt="image1" style="width: 120px;"> 
-    
-    
-</div>
-
-<div class="container person2">
-  <q>thandokazi has a lot of confidance and always give 100% of what she does!</q>
-  <h2 class="name">LIKHO KAPESI</h2>
-    <h3 class="tittle">-NAWCU President & Founder-</h3>
-    <img src="./images/C8 Apr21 Likho Kapesi (1).JPG" alt="image2" style="width: 120px;">
-    
-    
-
-</div>
-
-<div class="container person3"> 
-  <q>Thandokazi is a very determined individual. she works her way with the problems she encounte, she never back down.she is always willing to help where she can</q>
-  <h2 class="name">RESTEPILE </h2>
-    <h3 class="tittle ">-web developer-</h3>
-    <img src="./images/RESTEPILE.jpeg" alt="image3" style="width: 120px;">
-    
-    
-</div>
-
-<div class="container person2">
-  <q>Thandokazi is reliable, trustworthy and always willing to help. </q>
-  <h2 class="name">Zoe Strachan</h2>
-  <h3 class="tittle">-Web Developer-</h3>
-    <img src="./images/C8 Apr21 Zoe Strachan (3).JPG " alt="image2" style="width: 120px;">
-   
-    
-
-</div>
-
-<div class="container person2">
-  <q>thandokazi is always eager to learn , she is patient and has a pleasant personality. Thandokazi is realiable and responsible.</q>
-  <h2 class="name">Gieon Daniels</h2>
-    <h3 class="tittle">-Web Developer-</h3>
-    <img src="./images/C8 Apr21 Gideon Daniels (5).JPG" alt="image2" style="width: 120px;">
-    
-    
-
-</div>
-
-<div class="container person2">
-  <q>thandokazi is a brilliant,hardworking student at Lifechoices academy. She has great communication annd intellectual skills. She works well within a team and is always willing to help other students. Thandokazi has a skill of been able to learn a new programming tools quickly.</q>
-  <h2 class="name">Thapelo Tsotetsi</h2>
-    <h3 class="tittle">-Lecture-</h3>
-    <img src="./images/thapelo-tsotetsi.jpg" alt="image2" style="width: 120px;">
-    
-    
-
-</div>
-
-</div>
-</div>
-<!-- Script tags under here --
-<script
-src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
-integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
-crossorigin="anonymous"
-></script>
-<script
-src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-crossorigin="anonymous"
-></script>
-<script>
-$(document).ready(function () {
- $(".owl-carousel").owlCarousel({
-   items: 1,
-   margin: 50,
-   loop: true,
-   stagePadding: 100,
-   dots: false,
-   autoplay: true,
- });
-});
-</script>
-</section>-->
-
+>
 
 
  
-  <div id="portfolio" class="portfolio" >
+
+
+ 
+ <div id="portfolio" class="portfolio" >
     <div class="contact-row">
         <div class="side-bar">
             <h2>
                 <span class="side-text">
-                    <span class="side-text">Let's get in touch!</span>
+                    <span class="side-text">CONTACT</span>
 
                 </span>
             </h2>
 
         </div>
-      
-        <form
-        id="contact-form"
-        action="https://formspree.io/f/moqyvpek"
-        method="POST"
-        style="height: 600px;">
-        <div>
-        <h2 class="heading">Send Me A message</h2>
+        <div class="form-1">
+         <div id="touch" class="separator">
+          <h4>contact</h4>
         </div>
-        <div>
-          <label class="label" for="name">Full Name</label>
-          <input class="form-input" name="name" id="name" required placeholder="Full Name" />
-        </div>
-        <label class="label" for="your email">Your email</label>
-        <input class="form-input"
-          name="your email"
-          id="your email"
-          required
-          placeholder="example@gmail.com"
-        />
-        <div>
-          <label class="label" for="number">Contact Number</label>
-          <input class="form-input" type="tel" id="number" required placeholder="081 246 3691" />
-        </div>
-        <div>
-          <div>
-            <label class="label" for="your message">Your message:</label>
-            <textarea class="form-input"
-              name="your massage"
-              id="your message"
-              required
-              placeholder="type in your message"
-            ></textarea>
-          </div>
-          <div>
-            <label class="label" for="contact"></label>
-          </div>
-        </div>
-  
-        <!-- your other form fields go here -->
-  
-        <button class="button" type="submit">Send</button>
-      </form>
+         <div class="frame-01">
+          <div class="form-02">
+                      <form
+            id="contact-form"
+            action="https://formspree.io/f/moqyvpek"
+            method="POST"
 
-        <!-- Script tags under here -->
+            
+            >
+            
+            <div class="contact-1">
+              <label class="label" for="name">Full Name</label>
+              <input class="form-input" name="name" id="name" required placeholder="Full Name" />
+            </div>
+            <label class="label" for="your email">Your email</label>
+            <input class="form-input"
+              name="your email"
+              id="your email"
+              required
+              placeholder="example@gmail.com"
+            />
+            <div>
+              <label class="label" for="number">Contact Number</label>
+              <input class="form-input" type="tel" id="number" required placeholder="081 246 3691" />
+            </div>
+            <div>
+              <div>
+                <label class="label" for="your message">Your message:</label>
+                <textarea class="form-input"
+                  name="your massage"
+                  id="your message"
+                  required
+                  placeholder="type in your message"
+                ></textarea>
+              </div>
+              <div>
+                <label class="label" for="contact"></label>
+              </div>
+            </div>
+      
+            <button class="button" type="submit">Send</button>
+          </form>
+          </div>
+           <div class="map"> 
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3309.0634785612506!2d18.501412315659014!3d-33.965207880629784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc5cb48bc4b0f7%3A0x1271468fca6625b1!2s14%20Fabian%20Ave%2C%20Athlone%2C%20Cape%20Town%2C%207760!5e0!3m2!1sen!2sza!4v1624628700872!5m2!1sen!2sza"  allowfullscreen="" loading="lazy"></iframe>
+
+           </div>
+
+         </div>
         <script
           src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
           integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
@@ -531,15 +521,16 @@ $(document).ready(function () {
           $(document).ready(function () {
             $(".owl-carousel").owlCarousel({
               items: 1,
-              margin: 50,
+              margin: 10,
               loop: true,
-              stagePadding: 100,
+              stagePadding: 25,
               dots: false,
               autoplay: true,
             });
           });
         </script>
 
+       
     </div>
 
 
@@ -559,6 +550,6 @@ function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
 </script>
-   
+
 </body>
 </html> 
