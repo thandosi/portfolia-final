@@ -1,71 +1,36 @@
-#contact-form {
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+#contact{
   display: flex;
+  min-height: 100vh;
+}
+
+.get_intouch{
+  background-color: purple;
+  min-height: 100%;
+  min-width: 20%;
+}
+
+.form{
+  min-width: 40%;
   padding: 200px;
-  margin-top: 100px;
-}
-
-.contact-row {
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
 }
 
-.contact-icon {
-  margin-top: 20px;
+.map{
+  min-height: 100%;
 }
 
-.label {
-  display: none;
+.side{
   color: white;
-}
-
-.button {
-  border-radius: 10px;
-  border: 1px solid rgba(139, 77, 77, 0.18);
-  padding: 10px;
-  font-family: sans-serif;
-  width: 50%;
-}
-.form-input {
-  margin-bottom: 10px;
-  background: black;
-  width: 100%;
-  padding: 10px;
-  outline: none;
-  color: white;
-  border: none;
-}
-.heading {
+  font-size: 40px;
+  letter-spacing: 4px;
   text-transform: uppercase;
-  color: purple;
-}
-
-.side-bar {
-  display: flex;
-  flex-direction: column-reverse;
-}
-
-.contact-icon {
-  font-size: 25px;
-}
-
-.submit {
-  font-size: 14px;
-  line-height: 1.1;
-  color: black;
-}
-
-.hover-button {
-  position: relative;
-  width: 180px;
-  min-height: 50px;
-  background-color: black;
-  text-transform: uppercase;
-  text-align: center;
-  color: white;
-  letter-spacing: 3px;
-  -webkit-appearance: button;
-  cursor: pointer;
-}
-
-.frame-1 {
-  display: flex;
 }
