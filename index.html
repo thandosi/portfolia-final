@@ -31,46 +31,10 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 <style>
 body {
-  font-family: "Lato", sans-serif;
+  font-family: sans-serif;
 }
 
-.sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: black;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-}
 
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  display: block;
-  transition: 0.3s;
-}
-
-.sidenav a:hover {
-  color: #f1f1f1;
-}
-
-.sidenav .closebtn {
-  position: fixed;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
 </style>
 </head>
 <body class="body">
@@ -79,9 +43,9 @@ body {
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <a class="active" href="#home">Home</a>
   <a href="#about">About</a>
-  <a href="#resume">Resume</a>
+  <a href="#education">Resume</a>
   <a href="#portfolio">Portfolio</a>
-  <a href="#testimonial">Testimonial</a>
+  <a href="#Testimonial">Testimonial</a>
   <a href="#contact-form">Contact</a>
 </div>
 
@@ -124,12 +88,11 @@ body {
   <div class="me">
     <div class="about-me">
       <div class="separator">
-        <h4>About Me</h4>
+        <h4 class="aboutme">About Me</h4>
       </div>
       <h3 class="aspire">Im an aspiring web developer</h3>
       <div class="separator"></div>
       <p>I am a very enthusiastic person, I consider myself a fast learner and I like to learn new things. I thrive in the process of solving complex problems. I believe that to find the most accurate solution, you have to go through trial and error. I enjoy playing sport and being active. Once I know my surroundings and I am comfortable I am very outspoken.</p>
-      <br/>
       <p>I never found something that challenged and interested me. Until I stumbled upon coding I never looked back. While doing self-studying I found out about Life Choices; I became so excited and decided to come to Cape Town. I didn’t want to miss out on this opportunity that could make my dreams come true. I want to be a developer because I live for change and I think technology is positively changing most things in our lives. I want to be part of this growing change. 
       </p>
       <div class="social-icons">
@@ -143,7 +106,7 @@ body {
   <div class="skill">
     <div class="my-skill"> 
       <div class="separator">
-        <h4>My Skills</h4>
+        <h4 class="skills">My Skills</h4>
       </div>      
     </div>
     <div class="skill-container">
@@ -174,12 +137,12 @@ body {
   <div class="education">
     <div class="cv">
       <div class="separator">
-        <h4>Education </h4>
+        <h4 class="edu">Education </h4>
       </div>
       <div class="work">
         <ul>
             <li  class="list"><div ></div>
-                <h3 style="color: white;">Khwezi Lomso comprehensive school</h3>
+                <h3 style="color: white;" class="school">Khwezi Lomso comprehensive school</h3>
                 <div class="cards1">
                     <h5 class="year1" style="color: white;"> 2012-2017</h5>
                    <ul class="ordered">
@@ -214,7 +177,7 @@ body {
                 <h5 class="year2" style="color: white;">2019-2019</h5>
                 <div class="cards3">
               
-                <p class="col">Couldnt finish due to ...  
+                <p class="col">Couldnt finish due to financial reasons. 
                 </p>
             
             </li>
@@ -246,7 +209,7 @@ body {
 
 
 
-<section id="portfolio" class="portfolio"  style="min-height: 900px;">
+<section id="portfolio" class="portfolio">
     <div class="pro-row">
         <div class="side-bar">
             <h2>
@@ -261,15 +224,17 @@ body {
         <div class="pro-container">
             <ul>
                 <li class="list"><div class="tittle">Contact Form</div>
-                    <img src="./images/Screenshot_2021-05-04 thandos form.png"  alt="">
+                    <img  src="./images/Screenshot_2021-05-04 thandos form.png"  alt="">
                     <div class="cards2">
                         <h5 class="card-subs"> HTML/CSS</h5>
                       <P class="card-decription"> </P>
                     </div>
 
-                    <a href="https://elastic-aryabhata-04bdfd.netlify.app" target="_blank" class="button-pro">live</a>
+                    <button>
+                      <a href="https://elastic-aryabhata-04bdfd.netlify.app" target="_blank" class="button-pro">live</a>
+                    </button>
 
-                    <a href="https://github.com/thandosi/contact-form" target="_blank" class="button-pro">Github</a>
+                    <button><a href="https://github.com/thandosi/contact-form" target="_blank" class="button-pro">Github</a></button>
                     <div></div>
                 
                 </li>
@@ -279,9 +244,9 @@ body {
                         <h5 class="card-subs" style="color: white;"> HTML/CSS</h5>
                         <P class="card-decription"> </P>
 
-                        <a href="https://stoic-kowalevski-f4d993.netlify.app" target="_blank" class="button-pro">live</a>
+                        <button><a href="https://stoic-kowalevski-f4d993.netlify.app" target="_blank" class="button-pro">live</a></button>
 
-                       <a href="https://github.com/thandosi/tesimonials" target="_blank" class="button-pro">Github</a>
+                       <button><a href="https://github.com/thandosi/tesimonials" target="_blank" class="button-pro">Github</a></button>
                 </div>
                 
                 </li>
@@ -291,9 +256,9 @@ body {
                         <h5 class="card-subs"> HTML/CSS</h5>
                   <P class="card-decription"> </P>
 
-                  <a href="https://lucid-franklin-a97986.netlify.app" target="_blank" class="button-pro">live</a>
-
-                    <a href="https://github.com/thandosi/Timeline" target="_blank" class="button-pro">Github</a>
+                  <button><a href="https://lucid-franklin-a97986.netlify.app" target="_blank" class="button-pro">live</a>
+                  </button>
+                    <button><a href="https://github.com/thandosi/Timeline" target="_blank" class="button-pro">Github</a></button>
                     
                 
                 </li>
@@ -304,9 +269,9 @@ body {
                       <h5 class="card-subs" style="color: white;"></h5> Python</h5>
                 <P class="card-decription"> </P>
 
-                <a href="https://replit.com/@aylerbear/ticket-sale#main.py" target="_blank" class="button-pro">live</a>
+                <button><a href="https://replit.com/@aylerbear/ticket-sale#main.py" target="_blank" class="button-pro">live</a></button>
 
-                  <a href=https://github.com/thandosi/ticket-sale target="_blank" class="button-pro">Github</a>
+                  <button><a href=https://github.com/thandosi/ticket-sale target="_blank" class="button-pro">Github</a></button>
                   
               
               </li>
@@ -316,9 +281,9 @@ body {
                     <h5 class="card-subs" style="color: white;"></h5> Python</h5>
               <P class="card-decription"> </P>
 
-              <a href=https://replit.com/@aylerbear/currency-converter#main.py target="_blank" class="button-pro">live</a>
+              <button><a href=https://replit.com/@aylerbear/currency-converter#main.py target="_blank" class="button-pro">live</a></button>
 
-                <a href=https://github.com/thandosi/currency-converter target="_blank" class="button-pro">Github</a>
+                <button><a href=https://github.com/thandosi/currency-converter target="_blank" class="button-pro">Github</a></button>
                 
             
             </li>
@@ -328,9 +293,9 @@ body {
                   <h5 class="card-subs" style="color: white;"></h5> Python</h5>
             <P class="card-decription"> </P>
 
-            <a href=https://replit.com/@aylerbear/errorhandling-1#.replit target="_blank" class="button-pro">live</a>
+            <button><a href=https://replit.com/@aylerbear/errorhandling-1#.replit target="_blank" class="button-pro">live</a></button>
 
-              <a href=https://github.com/thandosi/error_handling target="_blank" class="button-pro">Github</a>
+            <button><a href=https://github.com/thandosi/error_handling target="_blank" class="button-pro">Github</a></button>
               
           
           </li>
@@ -345,48 +310,47 @@ body {
 
 </section>
 
-<section id="" class="">
-  < class="">
+<section id="Testimonial" class="">
     <div class="cv">
       <div class="separator">
-        <h4>Testimonials</h4>
+        <h4 class="monial">Testimonials</h4>
       </div>
 
   <!-- Set up your HTML -->
   <div class="owl-carousel">
      <div class="container person1">
-         <img src="./images/thapelo-tsotetsi.jpg" alt="image1" style="width: 120px;"> 
-         <h2 class="name" style="color: white;">THAPELO TSETETSI</h2>
-         <h3 class="tittle">-Lecture-</h3>
+         <img src="./images/thapelo-tsotetsi.jpg" alt="image1" style="width: 120px;" style="height: 100px;" class="image" > 
+         <h5 class="name" style="color: white;">THAPELO TSETETSI</h5>
+         <h5 class="tittle">-Lecture-</h5>
          <q>thandokazi is a brilliant,hardworking student at Lifechoices academy. She has great communication annd intellectual skills. She works well within a team and is always willing to help other students. Thandokazi has a skill of been able to learn a new programming tools quickly.</q>
      </div>
      
 
      <div class="container person2">
-         <img src="./images/unnamed.jpg" alt="image2" style="width: 120px;">
-         <h2 class="name" style="color: white;">Godwin Dza</h2>
-         <h3 class="tittle">-head-</h3>
-         <q>thandokazi has a lot of congidance and always give 100% of what she does!</q>
+         <img src="./images/unnamed.jpg" alt="image2" style="width: 120px;" style="height: 100px;" class="image" >
+         <h5 class="name" style="color: white;">Godwin Dzvapatsva</h5>
+         <h5 class="tittle">-Head of Curriculum and Learning-</h5>
+         <q>Thandokazi has a pleasant personality and ability to work in a team environment. I do not hesitate to recommend her for back-end projects.</q>
 
      </div>
 
      <div class="container person3"> 
-         <img src="./images/RESTEPILE.jpeg" alt="image3" style="width: 120px;">
-         <h2 class="name" style="color: white;">RESTEPILE </h2>
-         <h3 class="tittle ">-web developer-</h3>
-         <q>Thandokazi is very helpful ,patient and has a great personality.</q>
+         <img src="./images/RESTEPILE.jpeg" alt="image3" style="width: 120px;" style="height: 100px;" class="image" >
+         <h5 class="name" style="color: white;">RESTEPILE </h5>
+         <h5 class="tittle ">-web developer-</h5>
+         <q>Thandokazi is a critical thinker. she is always trying to find why things are working they way they do and how to change them for the better.</q>
      </div>
      <div class="container person4">
-        <img src="./images/C8 Apr21 Likho Kapesi (1).JPG" alt="image3" style="width: 120px;">
-        <h2 class="name" style="color: white;">likho kapesi</h2>
-        <h3 class="tittle ">-web developer-</h3>
-        <q>Thandokazi is very helpful ,patient and has a great personality.</q>
+        <img src="./images/C8 Apr21 Likho Kapesi (1).JPG" alt="image3" style="width: 120px;" style="height: 100px;" class="image">
+        <h5 class="name" style="color: white;">likho kapesi</h5>
+        <h5 class="tittle ">-web developer-</h5>
+        <q>Thandokazi is very helpful ,patient and has a great personality. it is never a dull moment when she is around.</q>
 
       </div>
       <div class="container person4">
-        <img src="./images/C8 Apr21 Likho Kapesi (1).JPG" alt="image3" style="width: 120px;">
-        <h2 class="name" style="color: white;">likho kapesi</h2>
-        <h3 class="tittle ">-web developer-</h3>
+        <img src="./images/C8 Apr21 Likho Kapesi (1).JPG" alt="image3" style="width: 120px;" style="height: 100px;" class="image">
+        <h5 class="name" style="color: white;">likho kapesi</h5>
+        <h5 class="tittle ">-web developer-</h5>
        <q>Thandokazi is very helpful ,patient and has a great personality.</q>
 
       </div>
@@ -407,7 +371,7 @@ body {
     $(document).ready(function () {
       $(".owl-carousel").owlCarousel({
         items: 1,
-        margin: 50,
+        margin: 10,
         loop: true,
         stagePadding: 100,
         dots: false,
@@ -449,8 +413,8 @@ body {
   action="https://formspree.io/f/moqyvpek"
   method="POST"
 >
-  <div>
-    <h1 class="heading">Contact Form</h1>
+  <div >
+    <h1 class="head-bar" style="color: white;">Get Intouch</h1>
   </div>
   <div class="fullName">
     <label class="label" for="name">Full Name</label>
@@ -486,7 +450,7 @@ body {
 
   <!-- your other form fields go here -->
 
-  <button class="button" type="submit">Send</button>
+  <button class="button" type="submit">Send Message</button>
 </form>
   
 </div>

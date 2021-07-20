@@ -24,11 +24,16 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 15%;
+    padding: 10%;
 }
 
 .skill-container{
     margin-bottom: 50px;
+
+}
+
+.skills{
+    line-height: 2px;
 }
 
 .names{
@@ -67,6 +72,9 @@
     width: 90px;
     display: block;
     background-color: #eb83f8;
+}
+.aboutme{
+    line-height: 2px;
 }
 
 p{
@@ -115,6 +123,8 @@ h4{
 .my-skill{
     margin-bottom: 30px;
 }
+
+
 /*
 #about{
     display: flex;

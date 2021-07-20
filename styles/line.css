@@ -7,6 +7,10 @@
 
 }
 
+.edu{
+  line-height: 2px;
+}
+
 .cv{
   height: 80vh;
   padding: 80px;
@@ -19,62 +23,6 @@
   
 }
 
-
-.timeline-container {
-    display: grid;
-    grid-template-columns: 1fr 10% 1fr;
-    grid-template-rows: repeat(4, 1fr);
-    background-size: cover;
-    background-attachment: fixed;
-    align-items: center;
-    justify-items: center;
-    padding: 10%;
-  }
-  
-  .line2 {
-    width: 10px;
-    height: 50%;
-    grid-column-start: 2;
-    grid-row-start: 1;
-    grid-row-end: 3;
-    background:purple;
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
-    border-radius: 10px;
-  }
-  
-  .item-1 {
-    grid-column: 3;
-    grid-row: 1;
-  }
-  
-  .item-2 {
-    grid-column: 1;
-    grid-row: 1;
-  }
-  
-  .item-3 {
-    grid-column: 3;
-    grid-row: 2;
-  }
-  
-  .item-4 {
-    grid-column: 1;
-    grid-row: 2;
-  }
-  
-  .timeline-item {
-    color: white;
-    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
-    padding: 10%;
-    margin: 10%;
-    background: rgba(255, 255, 255, 0.4);
-    backdrop-filter: blur(4px);
-    border-radius: 10px;
-    background-color:purple;
-  
-  }
 
   .sub{
     color: white;
@@ -101,6 +49,7 @@
 
   .college{
     margin-bottom: 10px;
+    text-align: center;
   }
 
   .tech{
@@ -123,18 +72,9 @@
   text-align: center;
 }
   
-  
-  @media screen and (max-width: 800px) {
-    .timeline-container {
-      grid-template-columns: 10% 1fr;
-    }
-  
-    .line {
-      grid-column-start: 1;
-    }
-  
-    .timeline-item {
-      grid-column: 2;
-    }
-  }
+.school{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
 

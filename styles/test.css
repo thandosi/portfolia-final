@@ -1,18 +1,3 @@
-
-.container {
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  font-family: sans-serif;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 35vh;
-  width: 50%;
-  border-radius: 9%;
-  margin-top: 150px;
-  
-}
 .name {
   color: white;
 }
@@ -22,4 +7,31 @@ q{
   text-align: center;
 }
 
+.owl-carousel{
+  padding: 70px;
+}
 
+
+
+.container {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 70px;
+}
+
+.image{
+  border-radius: 50px;
+}
+
+.monial{
+  line-height: 2px
+}
+.name{
+  margin-top: 10px;
+}

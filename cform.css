@@ -34,3 +34,27 @@
   letter-spacing: 4px;
   text-transform: uppercase;
 }
+
+.form-input {
+  background-color: black;
+  color: rgb(221, 192, 192);
+margin-bottom: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 ); 
+width: 100%;
+padding: 10px;
+outline: none;
+
+}
+
+.side{
+  display: flex;
+  justify-content: center;
+  margin-top: 300px;
+
+}
+
+.head-bar{
+  line-height: 2px;
+  float: left;
+  margin-bottom: 15px;
+}

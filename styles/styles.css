@@ -15,39 +15,44 @@
  }  
     
     
- 
- .topnav {
-     background-color:grey;
-     overflow: hidden;
-     position: fixed;
-     z-index: 3;
-     
-   }
-   
-   .topnav a {
-     float: left;
-     color: #f2f2f2;
-     text-align: center;
-     padding: 14px 16px;
-     text-decoration: none;
-     font-size: 18px;
-     position: sticky;
-     
-   }
-   
-   
-   .topnav a:hover {
-     background-color:purple;
-     color:black;
-     position: sticky;
-   }
-   
-   
-   .topnav a.active {
-     background-color:purple;
-     color: white;
-     position: sticky;
-   }
+ .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: fixed;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: red;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
 
  /*landing*/
 
@@ -102,31 +107,28 @@
      font-size: xx-large;
  }
  
-
-
  .btn{
-  text-decoration: none;
-     
-     
-
+    text-decoration: none;
  }
 
+
+ 
  .button{
-    background-color: black;
-     color: white;
-     text-transform: uppercase;
-     font-size: 20px;
-     letter-spacing: 3px;
-     width: 5px;
-     margin-top: 40px;
-    height: 30%;
+    position: relative;
+    display: flex;
     align-items: center;
     justify-content: center;
     width: 180px;
-    text-decoration: none;
-    line-height: 50px;
-    position: relative;
+    height: 50px;
+    background: #000;
+    text-transform: uppercase;
     text-align: center;
+    color: #fff;
+    letter-spacing: 4px;
+    border: none;
+    text-decoration-color: #000;
+    text-decoration: none;
+    
  }
 
 
@@ -136,6 +138,7 @@
      font-family: sans-serif;
      position: relative;
      left: 100px;
+     line-height: 2px;
      
  }
 
